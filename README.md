@@ -15,7 +15,7 @@ Afterward, a fresh summary file is commited.
 
 ```mermaid
 flowchart BT
-    users((Users)) -- Write -----> summary[Summary file]
+    users((Users)) -- Write ------> summary[Summary file]
     actions{GitHub Actions} -- Schedule --> actions
     
     actions ==> prepare[[Prepare]]
