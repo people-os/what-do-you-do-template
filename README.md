@@ -49,7 +49,7 @@ Define these [variables](https://docs.github.com/actions/learn-github-actions/va
 - `ZULIP_BOT_EMAIL`  
   The e-mail address associated with your Zulip bot, e.g. `team-x-bot@balena.zulipchat.com`
 - `ZULIP_BOT_NAME`  
-  Arbitrary bot name (used to commit a fresh summary file), e.g. `TeamXBot`
+  Arbitrary bot name, e.g. `TeamXBot`, which is used to commit a fresh summary file
 - `ZULIP_ORGANIZATION_URL`  
   Most likely `https://balena.zulipchat.com`
 - `ZULIP_PING`  
