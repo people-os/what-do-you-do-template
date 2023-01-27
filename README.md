@@ -24,7 +24,7 @@ flowchart BT
     prepare ==> publish[[Publish]]
     publish --> zulip[Zulip message] & release[GitHub Release]
 
-    publish ==> finalize[[Finalize]]
+    publish ===> finalize[[Finalize]]
     finalize -- Delete --> summary
 ```
 
