@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Set the dynamic reminder message'
-        run: echo "REMINDER_MESSAGE=${{ vars.ZULIP_PING }} don't forget to update your latest work items in [${{ vars.PROJECT_TITLE }}](https://github.com/${GITHUB_REPOSITORY}) -- the summary will be published on Monday, 10 minutes before the company call." >> $GITHUB_ENV
+        run: echo "REMINDER_MESSAGE=${{ vars.ZULIP_PING }} don't forget to update your latest work items in [${{ vars.PROJECT_TITLE }}](https://github.com/${GITHUB_REPOSITORY}) -- the summary will be published on Monday, 15 minutes before the company call." >> $GITHUB_ENV
       - name: 'Send the message to Zulip'
         uses: zulip/github-actions-zulip/send-message@v1
         with:
