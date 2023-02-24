@@ -13,7 +13,16 @@ jobs:
     steps:
       - name: 'Checkout the repository'
         uses: actions/checkout@v3
+      - name: 'Check for new content'
+        run: |
+          if [ -s ./SUMMARY.md ]; then
+            echo "Summary file is not empty"
+          else
+            echo "Summary file is empty"
+            exit 1
+          fi
       - name: 'Format the message'
+        if: ${{ success() }}
         id: message
         run: |
           echo 'CONTENT<<EOF' >> $GITHUB_OUTPUT
@@ -62,7 +71,7 @@ jobs:
           git config user.email "${{ vars.ZULIP_BOT_EMAIL }}"
       - name: 'Prepare a fresh summary file'
         run: |
-          echo "" > ./SUMMARY.md
+          echo -n > ./SUMMARY.md
           git add .
           git commit -m "New summary file on ${CURRENT_DATE}"
           git push origin master
