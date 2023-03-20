@@ -78,5 +78,5 @@ These can be adjusted in [`remind.md`](./.github/workflows/remind.yml) and [`pub
 ## Examples
 
 Some examples of the tool being used in the wild:
-- https://github.com/people-os/data-group-wdyd
-- https://github.com/people-os/team-os-wdyd
+- https://github.com/people-os/analytics-wdyd
+- https://github.com/people-os/people-ops-wdyd
