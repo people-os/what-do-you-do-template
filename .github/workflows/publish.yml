@@ -2,7 +2,7 @@ name: 'Publish the WDYD summary'
 
 on:
   schedule:
-    - cron: '45 14 * * MON'
+    - cron: '45 13 * * MON'
 
 jobs:
   create:
