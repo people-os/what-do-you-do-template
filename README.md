@@ -70,7 +70,7 @@ Define these [secrets](https://docs.github.com/actions/automating-your-workflow-
 Schedules are defined as CRON job GitHub action triggers.
 By default:
 - Reminders are triggered every Friday at 12.00PM UTC
-- Publishing is triggered every Monday at 2.45PM UTC
+- Publishing is triggered every Monday at 1.45PM UTC
 
 These can be adjusted in [`remind.md`](./.github/workflows/remind.yml) and [`publish.md`](./.github/workflows/publish.yml) respectively.
 
