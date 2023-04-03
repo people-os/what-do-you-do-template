@@ -4,7 +4,13 @@
 
 ## What is it?
 
-What Do You Do? (abbr. WDYD) is a tool to help share your work items with others periodically and publically.
+**TL;DR "What Do You Do?" (abbr. WDYD) is a tool to help share your work items with others periodically and publically.**
+
+🚀 Say hello to "What Do You Do?" (WDYD)! The ultimate nosey, yet handy tool that keeps everyone in the loop with your team's work! 🕵️‍♂️
+
+With WDYD, your teammates can document their work items, making it easy for everyone to stay in the loop! 🔄
+
+Hop on the WDYD train and upgrade your team's communication game! 🌟
 
 ## How it works?
 
