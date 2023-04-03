@@ -4,7 +4,7 @@
 
 ## What is it?
 
-**TL;DR "What Do You Do?" (abbr. WDYD) is a tool to help share your work items with others periodically and publically.**
+**TL;DR "What Do You Do?" (abbr. WDYD) is a tool to help share your work items with others periodically and publicly.**
 
 🚀 Say hello to "What Do You Do?" (WDYD)! The ultimate nosey, yet handy tool that keeps everyone in the loop with your team's work! 🕵️‍♂️
 
