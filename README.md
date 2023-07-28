@@ -78,7 +78,8 @@ By default:
 - Reminders are triggered every Friday at 12.00PM UTC
 - Publishing is triggered every Monday at 1.45PM UTC
 
-These can be adjusted in [`remind.md`](./.github/workflows/remind.yml) and [`publish.md`](./.github/workflows/publish.yml) respectively.
+These can be adjusted in [`remind.yml`](./.github/workflows/remind.yml) and [`publish.yml`](./.github/workflows/publish.yml) 
+respectively.
 
 
 ## Examples
