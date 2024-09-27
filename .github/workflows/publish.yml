@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: 'Checkout the repository'
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
       - name: 'Check for new content'
         run: |
           if [ -s ./SUMMARY.md ]; then
@@ -59,6 +61,8 @@ jobs:
         run: echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - name: 'Checkout the repository'
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
       - name: 'Tag and release the current state'
         uses: ncipollo/release-action@v1
         with:
@@ -72,6 +76,6 @@ jobs:
       - name: 'Prepare a fresh summary file'
         run: |
           echo -n > ./SUMMARY.md
-          git add .
+          git add ./SUMMARY.md
           git commit -m "New summary file on ${CURRENT_DATE}"
           git push origin master
